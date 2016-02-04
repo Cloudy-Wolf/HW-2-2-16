@@ -1,0 +1,46 @@
+int value = 0;
+
+void setup()
+{
+  size(400, 300);
+
+}
+
+void draw()
+{
+  
+  background(value);
+}
+
+void keyPressed()
+{
+  if (key =='r')
+  {
+    value = #FF0000;
+  } 
+  
+     if (key =='g')
+     {
+       value = #00FF00;
+     }
+     
+       if (key =='b')
+       {
+         value = #0000FF;
+       }
+       
+         if (key =='1')
+         {
+           value = 0;
+         }
+         
+           if (key =='2')
+           {
+             value = #FFEB03;
+           }
+           
+             if (key =='3')
+             {
+               value = #03FFF9;
+             }
+}
